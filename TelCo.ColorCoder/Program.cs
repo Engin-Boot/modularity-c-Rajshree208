@@ -39,7 +39,6 @@ namespace TelCo.ColorCoder
         {
             ColorTests();
             getAllPairsInString();
-            Console.ReadKey();
         }
     }
 }
