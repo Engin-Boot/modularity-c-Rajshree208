@@ -36,7 +36,7 @@ namespace TelCo.ColorCoder
             Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
             
-            string teststringAllPairs = getAllPairsInString();
+            string teststringAllPairs = showAllPairsInString();
             Console.WriteLine(teststringAllPairs);
             string[] stringForPairs = teststringAllPairs.Split('\n');
             int countOfNewLines = stringForPairs.Length - 1;
