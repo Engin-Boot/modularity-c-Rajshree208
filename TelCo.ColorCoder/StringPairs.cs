@@ -11,7 +11,7 @@ namespace TelCo.ColorCoder
         /// </summary>
         /// <returns></returns>
 
-        private static void getAllPairsInString()
+        private static string getAllPairsInString()
         {
             Console.WriteLine("\n-----REFERENCE MANUAL-----\n");
             string refManual = "";
