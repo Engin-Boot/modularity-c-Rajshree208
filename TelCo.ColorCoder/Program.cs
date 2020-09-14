@@ -38,7 +38,6 @@ namespace TelCo.ColorCoder
         private static void Main(string[] args)
         {
             ColorTests();
-            getAllPairsInString();
         }
     }
 }
