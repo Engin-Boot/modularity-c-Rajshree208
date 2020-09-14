@@ -21,7 +21,7 @@ namespace TelCo.ColorCoder
                 ColorPair majorMinorColorPair = GetColorFromPairNumber(pairNo);
                 refManual += "(" + pairNo.ToString() + "->" + majorMinorColorPair.ToString() + ")" + "\n";
             }
-            Console.WriteLine(refManual);
+            return refManual;
         }
     }
 }
